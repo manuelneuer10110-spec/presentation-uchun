@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 48px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-logo {
+  cursor: pointer;
+  width: 184.0488739013672px;
+  height: 24px;
+}
+
+.main-section {
+  display: flex;
+}
+
+.food-court {
+  width: 536px;
+  height: 288px;
+}
+
+.french-salad {
+  width: 803px;
+  height: 706px;
+}
+
+.main-bottom {
+  display: flex;
+  gap: 46px;
+}
+
+.button-style {
+  width: 118px;
+  border: none;
+  border: 4px solid Gray;
+  border-radius: 4px;
+}
+
+.restaurant-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1256px;
+}
+
+.burger-box {
+  width: 296px;
+  box-shadow: 0px 2px 16px 0px #3c3e4a14;
+  text-align: center;
+}
+.believe {
+  display: block;
+  margin: 0 auto;
+}
+
+.pastifigio {
+  display: block;
+  margin: 0 auto;
+}
+
+.believe2 {
+  width: 188.9247283935547px;
+  padding-top: 32px;
+  padding-left: 53.31px;
+  padding-right: 53.76px;
+  padding-bottom: 31.5px;
+}
+
+.vietnam {
+  display: block;
+  margin: 0 auto;
+}
+
+.foods-section {
+  display: flex;
+  gap: 24px;
+}
+
+.pastifigio {
+  width: 296px;
+  height: 112px;
+}
+
+.delivery-section {
+  width: 100%;
+  background-color: #f2f4fa;
+  padding-top: 80px;
+  padding-bottom: 81px;
+  display: flex;
+}
+
+.delivery-input {
+  width: 336px;
+  height: 72px;
+}
+
+.delivery-button {
+  width: 88px;
+  height: 72px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  background-color: #b79c10;
+}
+
+.delivery-buttons {
+  display: flex;
+}
+
+.burger-pass {
+  width: 149px;
+  height: 68.81764221191406px;
+}
+
+.pastifigio-pass {
+  width: 151px;
+  height: 31.18818473815918px;
+}
+
+.believe-pass {
+  width: 188.92474365234375px;
+  height: 48.5px;
+}
+
+.vietnam-pass {
+  width: 109px;
+  height: 75px;
+}
+
+.delivery-text {
+  width: 509px;
+  padding-top: 80px;
+  padding-bottom: 81px;
+}
+
+.delivery-buttons {
+  width: 414px;
+  padding-top: 80px;
+  padding-bottom: 81px;
+}
+
+.specialities-nav {
+  width: 1256px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialities-button {
+  width: 118px;
+  height: 48px;
+  background-color: #f2f4fa;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.delivery-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-limon {
+  width: 100%;
+  height: 284px;
+}
+
+.limon {
+  display: flex;
+
+  justify-content: center;
+  padding-top: 56px;
+  padding-bottom: 45px;
+  padding-right: -316px;
+}
+.limon-section {
+  background-image: url(./images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.map-img {
+  width: 1280px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.yellow-kitchens {
+  display: flex;
+  gap: 24px;
+}
+
+.yellow-kitchens-text {
+  font-size: 36px;
+}
+
+.instagram-text {
+  color: #969292;
+}
+
+.yellow-kitchens-box {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+footer {
+  background-color: #3f4255;
+  height: 437px;
+  width: 100%;
+  padding-top: 48px;
+}
+
+.footer-mark {
+  background-image: url(images/bg.jpg);
+  width: 1240px;
+}
+
+.mark-section {
+  background-color: white;
+  width: 540px;
+  height: 474px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us {
+  color: white;
+  padding-left: 0;
+}
+
+.contact-us {
+  padding-left: 0;
+}
+
+.get-help {
+  padding-left: 0;
+}
+
+.color-li {
+  color: white;
+  text-decoration-line: none;
+}
+.about-us {
+  gap: 16px;
+}
+
+.footer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 97px;
+}

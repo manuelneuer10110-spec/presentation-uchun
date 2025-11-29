@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.anchor {
+  width: 280px;
+  padding: 20px 20px;
+  color: white;
+  background-color: brown;
+  transition: transform 1s linear;
+}
+
+.button {
+  width: 280px;
+  padding: 20px 20px;
+  color: white;
+  background-color: brown;
+  transition: transform 2s linear;
+}
+
+.input {
+  width: 280px;
+  padding: 20px 20px;
+  color: white;
+  background-color: brown;
+  transition: transform 2s linear;
+}
+
+.anchor:hover {
+  transform: translate(400px);
+}
+
+.button:hover {
+  transform: scale(2);
+}
+
+.input:hover {
+  transform: rotateY(360deg);
+}
+
+.main-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
